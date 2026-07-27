@@ -40,7 +40,7 @@
 ![トップ画面](screenshots/top.png)
 
 ### おすすめ表示
-![おすすめ表示](screenshots/recommendation-result.png)
+![おすすめ表示](screenshots/result-screen.png)
 
 ### お気に入り一覧
 ![お気に入り一覧](screenshots/favorite-list.png)
