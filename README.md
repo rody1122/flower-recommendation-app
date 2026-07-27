@@ -32,3 +32,15 @@
 ## 今後の改善
 - 必要な部分のみ更新する処理への改善
 - ローディング表示の改善
+
+
+## スクリーンショット
+
+### トップ画面
+![トップ画面](screenshots/top.png)
+
+### おすすめ表示
+![おすすめ表示](screenshots/recommendation-result.png)
+
+### お気に入り一覧
+![お気に入り一覧](screenshots/favorite-list.png)
