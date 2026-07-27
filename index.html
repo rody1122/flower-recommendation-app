@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めての庭づくり</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>はじめての庭づくり</h1>
+    <p>お庭をかわいくしたいけど、何から始めたらいいかわからない方へ</p>
+
+    <div class="box form-box">
+        <div class="form-note">
+            条件を選ぶだけで、<br>
+            おすすめの花壇や寄せ植えがわかります。
+        </div>
+
+        <div class="form-group">
+            <p>栽培方法</p>
+            <div class="radio-row">
+                <label><input type="radio" name="type" value="ground"><span>地植え</span></label>
+                <label><input type="radio" name="type" value="planter"><span>プランター</span></label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>日当り</p>
+            <div class="radio-row">
+                <label><input type="radio" name="sun" value="sunny"><span>日なた</span></label>
+                <label><input type="radio" name="sun" value="half"><span>半日陰</span></label>
+                <label><input type="radio" name="sun" value="shade"><span>日陰</span></label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>季節</p>
+            <div class="radio-row">
+                <label><input type="radio" name="season" value="春"><span>春</span></label>
+                <label><input type="radio" name="season" value="夏"><span>夏</span></label>
+                <label><input type="radio" name="season" value="秋"><span>秋</span></label>
+                <label><input type="radio" name="season" value="冬"><span>冬</span></label>
+            </div>
+        </div>
+        <button class="button" id="showBtn">お花を見てみる</button>
+        <button class="button" id="clearBtn">Clear</button>
+        <button class="linkBtn" id="linkBtnTop">❤ お気に入り一覧</button>
+    </div>
+
+    <div id="loading" class="loading">
+        <img src="image/dailyfina-leaf-6003.gif" alt="揺れるリーフ">
+        <p>おすすめを探しています...</p>
+    </div>
+
+    <div id="result" class="box result-box"></div>
+
+    <div id="favorite" class="box fav-box"></div>
+
+    <div id="soil" class="box"></div>
+
+    <div id="modal">
+        <img id="modal-img">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.js"
+        integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
